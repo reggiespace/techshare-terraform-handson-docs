@@ -3,7 +3,7 @@
 // inside this folder, lets create a file called main.tf 
 
 resource "aws_instance" "ec2_instance" {
-  ami                    = "techshare-ami"
+  ami                    = ""
   instance_type          = "t3.micro"
   subnet_id              = ""
   vpc_security_group_ids = ""
@@ -19,7 +19,6 @@ resource "aws_instance" "ec2_instance" {
 // to address them, lets create a variables.tf file and declare these variables 
 
 //variables.tf
-variable "ami_id" {}
 variable "instance_type" {}
 variable "instance_name" {}
 variable "subnet_id" {}

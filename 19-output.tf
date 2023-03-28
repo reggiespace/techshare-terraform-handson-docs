@@ -32,8 +32,8 @@ output "ec2_instance_id" {
 }
 
 // more
-// we need to export the availability zone from the vcp as well
-// outputs.tf inside the vcp folder
+// we need to export the availability zone from the VPC as well
+// outputs.tf inside the VPC folder
 output "za" {
   value = data.aws_availability_zones.available.names
 }

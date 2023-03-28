@@ -3,6 +3,8 @@
 // first, lets run terraform init to install the providers
 terraform init
 
+//show the .terraform folder
+
 
 // and then, lets plan the infrastructure
 terraform plan
